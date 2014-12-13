@@ -1,4 +1,4 @@
-pollutantmean1 <-function(directory, pol, id =001:332) {
+pollutantmean <-function(directory, pol, id =001:332) {
   #initialize initial data to empty everytime it starts
   alldata=c()
   for (i in id) {
